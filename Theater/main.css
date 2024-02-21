@@ -1,0 +1,210 @@
+* {
+    /* border: 1px solid red; */
+}
+
+body {
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    font-size: 3vh;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    margin-right: 15%;
+}
+
+.nav-item {
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #42adbb;
+}
+
+.background {
+    width: 100%;
+    position: flex;
+}
+
+.featshows {
+    justify-content: center;
+    align-items: start;
+    color: white;
+    display: flex;
+    font-size: 10vw;
+    margin-top: -30%;
+}
+
+.concerts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.concert-container {
+    border: 1px solid grey;
+    margin-top: 15%;
+    width: 80%;
+    height: 35px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: start;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.main {
+    width: 80%;
+}
+.coninfo {
+    flex-direction: row;
+    margin-top: 30px;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.conpic {
+    margin-left: 15px;
+}
+
+.conname {
+    width: 100%;
+    margin-left: 5%;
+    flex-wrap: wrap;
+}
+
+.conbutton {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid grey;
+    color: white;
+    background-color: #eab625;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #b68e1c;
+}
+
+footer {
+    margin-bottom: 0px;
+}
+
+.bottom {
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+    justify-content: space-evenly;
+}
+
+.fa {
+    color: #eab625;
+}
+
+.map {
+    width: 250px;
+    padding: 5%;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mapping {
+    width: 300px;
+}
+
+.footinfo {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.5em;
+}
+
+.footshows {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.5em;
+}
+
+.social {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.5em;
+}
+
+.foothead {
+    font-size: 2em;
+}
